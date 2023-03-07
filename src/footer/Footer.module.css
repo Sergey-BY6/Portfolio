@@ -1,0 +1,57 @@
+.footerBlock {
+    display: flex;
+    align-items: flex-end;
+    height: 35vh;
+    background-color: rgba(241,250,209,0.99);
+    padding-bottom: 20px;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid red;
+    height: 75%;
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+}
+
+.bLockColorMain {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    /*max-width: 300px;*/
+    /*width: 30vw;*/
+    width: 20vw;
+   min-width: 220px;
+    /*min-width: 0;*/
+    /*min-width: 0;*/
+    background-color: white;
+    /*min-width: 0;*/
+    /*max-height: 50px;*/
+    /*min-height: 0;*/
+}
+
+
+.blockColorGray{
+   /*max-width: 50px;*/
+   /* max-height: 50px;*/
+    width: 50px;
+    /*min-width: 25px;*/
+    height: 50px;
+    /*min-height: 25px;*/
+    background-color: gainsboro;
+    /*margin: 0 0px 0 0px;*/
+}
+
+.footerBottom {
+    border: 1px solid;
+}

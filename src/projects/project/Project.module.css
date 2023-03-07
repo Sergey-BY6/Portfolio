@@ -1,0 +1,59 @@
+.project {
+    display: flex;
+    flex-direction: column;
+
+    width: 290px;
+
+    background-color: rgba(245, 228, 255, 0.99);
+}
+
+.imageBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    max-width: 290px;
+    min-width: 0;
+
+    height: 200px;
+    background-color: powderblue;
+}
+
+.imageSee {
+    max-width: 135px;
+    min-width: 0;
+    height: 38px;
+
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.descriptionBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.projectName {
+    margin-top: 10px;
+    width: 120px;
+
+
+    background-color: rgba(209,218,226,0.99);
+}
+
+.description {
+    margin: 8px 0 10px 0;
+
+    max-width: 230px;
+    min-width: 0;
+
+
+    background-color: rgba(209,218,226,0.99);
+}
