@@ -17,6 +17,7 @@ export const Projects = () => {
                         projectName={'Social network'}
                         description={'A social network is a visual demonstration of the project architecture.'}
                     />
+
                 </div>
             </div>
 

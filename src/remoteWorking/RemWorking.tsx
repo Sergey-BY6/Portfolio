@@ -7,7 +7,7 @@ export const RemWorking = () => {
         <div className={s.remWorkingBlock}>
             <div className={s.container}>
                 <h2 className={s.title}>I am considering options for remote work.</h2>
-                <div className={s.navText}>Нанять меня</div>
+                <a href="" className={s.navText}>Hire me</a>
             </div>
         </div>
     );

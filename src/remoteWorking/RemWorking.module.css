@@ -1,7 +1,7 @@
 .remWorkingBlock {
     display: flex;
     align-items: center;
-    height: 35vh;
+    min-height: 35vh;
     background-color: rgba(250,243,248,0.99);
 }
 
@@ -11,7 +11,8 @@
     align-items: center;
     justify-content: space-between;
     border: 1px solid red;
-    height: 50%;
+
+    min-height: 50%;
     width: 80%;
     margin: 0 auto;
     flex-wrap: nowrap;
@@ -21,15 +22,24 @@
 .title {
     background-color: gainsboro;
     text-align: center;
+    margin: 15px 0 20px 0;
+    padding: 0 10px 0
 }
 
 .navText {
-    width: 135px;
+    width: 120px;
     height: 38px;
-    background-color: skyblue;
+    background-color: cornflowerblue;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10px;
+
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
 }
 
 h2 {

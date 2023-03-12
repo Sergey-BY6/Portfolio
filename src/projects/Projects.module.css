@@ -1,5 +1,5 @@
 .projectsBlock {
-    height: 100vh;
+    min-height: 100vh;
     background-color: rgba(239,182,255,0.99);
 }
 
@@ -11,6 +11,7 @@
 
 .title {
     background-color: rgba(245,228,255,0.99);
+    margin: 20px 0 20px 0;
 }
 
 .projects {
@@ -19,5 +20,6 @@
     border: 1px solid red;
     width: 100%;
     flex-wrap: wrap;
+    /*box-sizing: border-box;*/
 
 }
