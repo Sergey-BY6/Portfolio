@@ -1,0 +1,53 @@
+@import "./../common/styles/sass/variables";
+
+
+.remWorkingBlock {
+  display: flex;
+  min-height: 35vh;
+  background-color: $bgSecondColor;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid red;
+    min-height: 50%;
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+    text-align: center;
+    padding: 100px 0;
+    @media screen and (max-width: 767px) {
+      padding: 80px 0;
+    }
+
+    .navText {
+      width: 120px;
+      background-color: $primaryColor;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 30px 0 10px 0;
+      font-size: 13px;
+      font-weight: 600;
+      color: $textBtnColor;
+      text-decoration: none;
+      padding: 10px;
+      font-family: 'Raleway', sans-serif;
+      cursor: pointer;
+      border: 2px solid #f3c26b;
+      text-transform: uppercase;
+      line-height: 44px;
+      height: 46px;
+      letter-spacing: 2px;
+      border-radius: 3px
+    }
+  }
+}
+
+
+
+
+
+

@@ -1,0 +1,66 @@
+@import "./../common/styles/sass/variables";
+
+
+.footerBlock {
+  display: flex;
+  align-items: flex-end;
+  background-color: $bgSecondColor;
+  padding: 40px 0;
+
+  .footerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid red;
+    min-height: 75%;
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    .name {
+      font-family: 'Raleway', sans-serif;
+      display: flex;
+      justify-content: center;
+      color: $textColor;
+      letter-spacing: 3px;
+      font-size: 22px;
+      font-weight: 700;
+      margin: 0 0 30px 0;
+      text-align: center;
+    }
+
+    .bLockColorMain {
+      display: flex;
+      justify-content: center;
+      border: 1px solid;
+      flex-wrap: wrap;
+      padding: 0;
+      margin: 0 0 20px;
+
+      .blockColorGray {
+        color: $textColor;
+        margin: 5px 10px;
+        font-size: 14px;
+        cursor: pointer;
+        font-weight: 400;
+        line-height: 1.8;
+        font-family: "Poppins", sans-serif;
+      }
+    }
+  }
+
+  .footerBottom {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    color: rgba(255, 255, 255, .5);
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1.7px;
+    line-height: 28px;
+    text-align: center;
+  }
+}
+

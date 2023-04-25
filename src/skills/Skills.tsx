@@ -1,21 +1,43 @@
 import React from 'react';
-import s from './Skills.module.css'
+import s from './Skills.module.scss'
 import styleContainer from '../common/styles/Container.module.css'
 import {Skill} from './skill/Skill';
+import {Title} from '../common/components/title/Title';
+import jsImage from '../assets/image/js.svg';
+import reactImage from '../assets/image/react.svg';
+import cssImage from '../assets/image/react.svg';
+
 
 
 export const Skills = () => {
-
-
+//icon заглушки
+    const js = {
+        backgroundImage: `url(${jsImage})`
+    }
+    const css = {
+        backgroundImage: `url(${cssImage})`
+    }
+    const react = {
+        backgroundImage: `url(${reactImage})`
+    }
 
     return (
         <div className={s.skillsBlock}>
             <div className={`${styleContainer.container} ${s.skillsContainer}`}>
-                <h2 className={s.title}>Skills</h2>
+                <Title title={'My Skills'}/>
                 <div className={s.skills}>
-                    <Skill title={"JS"} description={"sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."}/>
-                    <Skill title={"Css"} description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit"}/>
-                    <Skill title={"React"} description={"ut labore et dolore magna aliqua Ut."}/>
+                    <Skill title={'JS'}
+                           description={'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim...'}
+                           // style={js}
+                    />
+                    <Skill title={'Css'}
+                           description={'Lorem ipsum dolor sit amet, consectetur adipisi fffhfhfh cing elit'}
+                           // style={css}
+                    />
+                    <Skill title={'React'}
+                           description={'Ut labore et dolore magna ggjgj aliqua Ut.'}
+                           // style={react}
+                    />
 
                 </div>
             </div>

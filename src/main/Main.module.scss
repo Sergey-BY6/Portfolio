@@ -1,0 +1,75 @@
+@import "./../common/styles/sass/variables";
+
+.mainBlock {
+  min-height: 100vh;
+  background-color: $bgColor;
+  display: flex;
+  align-items: center;
+
+  .mainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid red;
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 100px 0;
+    @media screen and (max-width: 939px) {
+      justify-content: center;
+    }
+    @media screen and (max-width: 767px) {
+      padding: 80px 0;
+    }
+
+    .text {
+      background-color: $bgColor;
+
+      .greeting {
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        font-size: 45px;
+        line-height: 65px;
+        text-transform: capitalize;
+        letter-spacing: 4px;
+        text-align: left;
+        font-weight: 700;
+      }
+
+      .name {
+        padding: 10px 0 10px;
+        margin: 0;
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        font-size: 45px;
+        line-height: 65px;
+        text-transform: capitalize;
+        letter-spacing: 4px;
+        text-align: left;
+        font-weight: 700;
+      }
+
+      .dev {
+        font-weight: 400;
+        font-size: 27px;
+        line-height: 1.8;
+        font-family: "Poppins", sans-serif;
+        color: white;
+      }
+    }
+
+    .photo {
+      width: 300px;
+      height: 400px;
+      background-color: rgba(221, 255, 252, 0.99);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+}
+
+
+
+
+

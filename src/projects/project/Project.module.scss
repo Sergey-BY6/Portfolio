@@ -1,0 +1,84 @@
+@import "./../../common/styles/sass/variables";
+@import "./../../common/styles/sass/mixins";
+
+.project {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  margin: 30px 0 30px 0;
+  background: $bgSecondColor;
+
+  .imageBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-color: powderblue;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: "";
+      background-color: black;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0.2;
+    }
+
+    .imageSee {
+      max-width: 135px;
+      height: 38px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 600;
+      color: $textBtnColor;
+      text-decoration: none;
+      padding: 10px;
+      position: relative;
+      z-index: 1;
+      cursor: pointer;
+      background: $primaryColor;
+      border: 2px solid $primaryColor;
+      -webkit-transition: all .4s;
+      font-family: 'Raleway', sans-serif;
+      font-size: 15px;
+      text-transform: uppercase;
+      text-align: center;
+      line-height: 44px;
+      min-width: 110px;
+      letter-spacing: 2px;
+      border-radius: 3px;
+    }
+  }
+
+  .projectInfo {
+    padding: 25px 20px;
+
+    .projectTitle {
+      margin: 0 0 5px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+      line-height: 1.2;
+      text-transform: uppercase;
+      font-size: 16px;
+      letter-spacing: 1px;
+      color: $textColor;
+    }
+
+    .description {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      font-family: 'Open Sans', sans-serif;
+      color: $textColor;
+    }
+  }
+}
+
