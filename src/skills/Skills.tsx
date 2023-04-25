@@ -3,14 +3,14 @@ import s from './Skills.module.scss'
 import styleContainer from '../common/styles/Container.module.css'
 import {Skill} from './skill/Skill';
 import {Title} from '../common/components/title/Title';
-import jsImage from '../assets/image/js.svg';
-import reactImage from '../assets/image/react.svg';
-import cssImage from '../assets/image/react.svg';
+import jsImage from '../assets/image/js.png';
+import reactImage from '../assets/image/react.png';
+import cssImage from '../assets/image/css.png';
 
 
 
 export const Skills = () => {
-//icon заглушки
+
     const js = {
         backgroundImage: `url(${jsImage})`
     }
@@ -28,15 +28,15 @@ export const Skills = () => {
                 <div className={s.skills}>
                     <Skill title={'JS'}
                            description={'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim...'}
-                           // style={js}
+                           style={js}
                     />
                     <Skill title={'Css'}
                            description={'Lorem ipsum dolor sit amet, consectetur adipisi fffhfhfh cing elit'}
-                           // style={css}
+                           style={css}
                     />
                     <Skill title={'React'}
-                           description={'Ut labore et dolore magna ggjgj aliqua Ut.'}
-                           // style={react}
+                           description={'Ut labore et dolore magna aliqua Ut.'}
+                           style={react}
                     />
 
                 </div>

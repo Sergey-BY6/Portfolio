@@ -7,12 +7,13 @@
   align-items: center;
   text-align: center;
   margin: 20px 0 20px 0;
+  //background-color: $bgColor;
 
   .icon {
     margin-top: 20px;
     height: 60px;
     width: 60px;
-    background-color: $bgColor;
+    //background-color: $bgColor;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

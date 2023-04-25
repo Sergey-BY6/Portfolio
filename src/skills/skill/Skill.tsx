@@ -4,7 +4,7 @@ import s from './Skill.module.scss'
 type SkillType = {
     title: string
     description: string
-    style?: {backgroundImage: string}
+    style: {backgroundImage: string}
 }
 
 export const Skill: React.FC<SkillType> = (props) => {
@@ -12,6 +12,7 @@ export const Skill: React.FC<SkillType> = (props) => {
         <div className={s.skill}>
             <div className={s.icon}
                  style={props.style}
+
             ></div>
             <div className={s.skillInfo}>
                 <h3 className={s.title}>{props.title}</h3>
